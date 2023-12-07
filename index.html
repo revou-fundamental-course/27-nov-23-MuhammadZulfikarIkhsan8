@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hitung Luas dan Keliling Segitiga</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Hitung Luas dan Keliling Segitiga</h1>
+
+<div class="container">
+    <div class="form-luas">
+        <div class="card">
+          <h2>Hitung Luas Segitiga</h2>
+          <center>
+              <img src="img/rumus_luas_segitiga.png" alt="img" height="250" width="250">
+          </center>      
+          <form action="#">
+            <input type="text" placeholder="Masukkan Alas" id="alas">
+            <input type="text" placeholder="Masukkan Tinggi" id="tinggi">        
+            <center>
+                <button class="buttoncount" type="submit" id="hitung-luas">Hitung</button>        
+                <button class="buttonreset" type="reset">Reset</button>
+            </center>          
+          </form>
+          <p id="hasil-luas"></p>
+        </div>
+    </div>
+
+
+    <div class="form-keliling">
+        <div class="card">
+          <h2>Hitung Keliling Segitiga</h2>
+          <center>
+              <img src="img/rumus_keliling_segitiga.png" alt="img" height="250" width="250">
+          </center>      
+          <form action="#">
+            <input type="text" placeholder="Masukkan Sisi 1" id="sisi1">
+            <input type="text" placeholder="Masukkan Sisi 2" id="sisi2">
+            <input type="text" placeholder="Masukkan Sisi 3" id="sisi3">
+            <center>
+                <button class="buttoncount" type="submit" id="hitung-keliling">Hitung</button>        
+                <button class="buttonreset" type="reset">Reset</button>
+            </center>            
+          </form>
+          <p id="hasil-keliling"></p>
+        </div>
+    </div>
+</div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
